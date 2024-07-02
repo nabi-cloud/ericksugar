@@ -18,8 +18,18 @@
 }
 
 body {
+  background-color: #022e68;
   color: rgb(var(--foreground-rgb));
   font-family: 'Montserrat', sans-serif;
+}
+
+main,
+footer {
+  background-color: #033e8a;
+}
+
+.bg-noise {
+  background-image: url('../public/noise.svg');
 }
 
 h1 {
