@@ -34,6 +34,7 @@ footer {
 
 h1 {
   font-family: 'Times New Roman', Times, serif;
+  src: url(./fonts/LiberationSerif-Bold.ttf) format('truetype');
   font-size: 24px;
   font-weight: bold;
   letter-spacing: 6px;
@@ -41,12 +42,14 @@ h1 {
 
 h2 {
   font-family: 'Times New Roman', Times, serif;
+  src: url(./fonts/LiberationSerif-Bold.ttf) format('truetype');
   font-size: 16px;
   font-weight: bold;
 }
 
 .initials {
   font-family: 'Times New Roman', Times, serif;
+  src: url(./fonts/LiberationSerif-Bold.ttf) format('truetype');
   font-size: 200px;
   font-weight: bold;
 }
@@ -62,6 +65,7 @@ h2 {
 
 .text-footer {
   font-family: 'Times New Roman', Times, serif;
+  src: url(./fonts/LiberationSerif-Bold.ttf) format('truetype');
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 6px;
@@ -69,12 +73,14 @@ h2 {
 
 .day {
   font-family: 'Times New Roman', Times, serif;
+  src: url(./fonts/LiberationSerif-Bold.ttf) format('truetype');
   font-style: italic;
   font-weight: bold;
 }
 
 .date {
   font-family: 'Times New Roman', Times, serif;
+  src: url(./fonts/LiberationSerif-Regular.ttf) format('truetype');
 }
 
 @layer utilities {
