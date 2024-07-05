@@ -57,23 +57,20 @@ footer {
 }
 
 h1 {
-  font-family: 'Times New Roman', Times, serif;
-  src: url(./fonts/LiberationSerif-Bold.ttf) format('truetype');
+  font-family: 'Times New Roman';
   font-size: 24px;
   font-weight: bold;
   letter-spacing: 6px;
 }
 
 h2 {
-  font-family: 'Times New Roman', Times, serif;
-  src: url(./fonts/LiberationSerif-Bold.ttf) format('truetype');
+  font-family: 'Times New Roman';
   font-size: 16px;
   font-weight: bold;
 }
 
 .initials {
-  font-family: 'Times New Roman', Times, serif;
-  src: url(./fonts/LiberationSerif-Bold.ttf) format('truetype');
+  font-family: 'Times New Roman';
   font-size: 200px;
   font-weight: bold;
 }
@@ -88,23 +85,20 @@ h2 {
 }
 
 .text-footer {
-  font-family: 'Times New Roman', Times, serif;
-  src: url(./fonts/LiberationSerif-Bold.ttf) format('truetype');
+  font-family: 'Times New Roman';
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 6px;
 }
 
 .day {
-  font-family: 'Times New Roman', Times, serif;
-  src: url(./fonts/LiberationSerif-Bold.ttf) format('truetype');
+  font-family: 'Times New Roman';
   font-style: italic;
   font-weight: bold;
 }
 
 .date {
-  font-family: 'Times New Roman', Times, serif;
-  src: url(./fonts/LiberationSerif-Regular.ttf) format('truetype');
+  font-family: 'Times New Roman';
 }
 
 @layer utilities {
