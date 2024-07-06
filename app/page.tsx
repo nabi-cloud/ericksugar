@@ -3,7 +3,7 @@ export default function Home() {
     <>
       <main className="sm:max-w-xs w-full shadow-2xl mx-auto text-blue-100">
         <div className='bg-noise px-5'>
-          <div className="fixed top-0 flex flex-col relative justify-between h-screen py-5">
+          <div className="flex flex-col relative justify-between h-lvh py-5">
             <span className="initials absolute -top-20 -left-6">E</span>
             <span className="initials absolute -bottom-20 -right-6">S</span>
             <p className="text-normal text-right ml-auto max-w-32">We invite you to our special day</p>
