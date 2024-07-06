@@ -41,10 +41,15 @@
   font-weight: bold;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   background-color: #022e68;
   color: rgb(var(--foreground-rgb));
   font-family: 'Montserrat', sans-serif;
+  height: 100%;
 }
 
 main,
