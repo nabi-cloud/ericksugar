@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -15,30 +15,6 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
-
-@font-face {
-  font-family: 'Times New Roman';
-  src: url(/app/fonts/LiberationSerif-Regular.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Times New Roman';
-  src: url(/app/fonts/LiberationSerif-Italic.ttf) format('truetype');
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Times New Roman';
-  src: url(/app/fonts/LiberationSerif-Bold.ttf) format('truetype');
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'Times New Roman';
-  src: url(/app/fonts/LiberationSerif-BoldItalic.ttf) format('truetype');
-  font-style: italic;
-  font-weight: bold;
 }
 
 body {
@@ -57,20 +33,20 @@ footer {
 }
 
 h1 {
-  font-family: 'Times New Roman';
+  font-family: "PT Serif", serif;
   font-size: 24px;
   font-weight: bold;
   letter-spacing: 6px;
 }
 
 h2 {
-  font-family: 'Times New Roman';
+  font-family: "PT Serif", serif;
   font-size: 16px;
   font-weight: bold;
 }
 
 .initials {
-  font-family: 'Times New Roman';
+  font-family: "PT Serif", serif;
   font-size: 200px;
   font-weight: bold;
 }
@@ -85,20 +61,20 @@ h2 {
 }
 
 .text-footer {
-  font-family: 'Times New Roman';
+  font-family: "PT Serif", serif;
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 6px;
 }
 
 .day {
-  font-family: 'Times New Roman';
+  font-family: "PT Serif", serif;
   font-style: italic;
   font-weight: bold;
 }
 
 .date {
-  font-family: 'Times New Roman';
+  font-family: "PT Serif", serif;
 }
 
 @layer utilities {
