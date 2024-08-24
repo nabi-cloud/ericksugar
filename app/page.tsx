@@ -71,7 +71,7 @@ export default function Home() {
               <li className="ms-4">
                 <div className="absolute w-2.5 h-2.5 bg-blue-900 rounded-full mt-1.5 -start-1.5 border border-white"></div>
                 <time className="text-sm font-bold leading-none">03:30 PM</time>
-                <p className="pb-10 pt-2 opacity-80">Find your seat and enjoy the pianist's music</p>
+                <p className="pb-10 pt-2 opacity-80">Find your seat and enjoy the pianist&apos;s music</p>
               </li>
               <li className="ms-4">
                 <div className="absolute w-2.5 h-2.5 bg-blue-900 rounded-full mt-1.5 -start-1.5 border border-white"></div>
