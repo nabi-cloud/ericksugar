@@ -70,13 +70,8 @@ export default function Home() {
             <ol className="relative border-s border-gray-200/80">
               <li className="ms-4">
                 <div className="absolute w-2.5 h-2.5 bg-blue-900 rounded-full mt-1.5 -start-1.5 border border-white"></div>
-                <time className="text-sm font-bold leading-none">3:30 PM</time>
-                <p className="pb-10 pt-2 opacity-80">Guests are about to enter</p>
-              </li>
-              <li className="ms-4">
-                <div className="absolute w-2.5 h-2.5 bg-blue-900 rounded-full mt-1.5 -start-1.5 border border-white"></div>
-                <time className="text-sm font-bold leading-none">03:55 PM</time>
-                <p className="pb-10 pt-2 opacity-80">Take a seat</p>
+                <time className="text-sm font-bold leading-none">03:30 PM</time>
+                <p className="pb-10 pt-2 opacity-80">Find your seat and enjoy the pianist's music</p>
               </li>
               <li className="ms-4">
                 <div className="absolute w-2.5 h-2.5 bg-blue-900 rounded-full mt-1.5 -start-1.5 border border-white"></div>
@@ -85,13 +80,13 @@ export default function Home() {
               </li>
               <li className="ms-4">
                 <div className="absolute w-2.5 h-2.5 bg-blue-900 rounded-full mt-1.5 -start-1.5 border border-white"></div>
-                <time className="text-sm font-bold leading-none">05:25 PM</time>
-                <p className="pb-10 pt-2 opacity-80">Pictorial</p>
+                <time className="text-sm font-bold leading-none">05:30 PM</time>
+                <p className="pb-10 pt-2 opacity-80">Break</p>
               </li>
               <li className="ms-4">
                 <div className="absolute w-2.5 h-2.5 bg-blue-900 rounded-full mt-1.5 -start-1.5 border border-white"></div>
-                <time className="text-sm font-bold leading-none">06:15 PM</time>
-                <p className="pb-10 pt-2 opacity-80">Dinner with music</p>
+                <time className="text-sm font-bold leading-none">06:00 PM</time>
+                <p className="pb-10 pt-2 opacity-80">Dinner</p>
               </li>
               <li className="ms-4">
                 <div className="absolute w-2.5 h-2.5 bg-blue-900 rounded-full mt-1.5 -start-1.5 border border-white"></div>
@@ -100,8 +95,8 @@ export default function Home() {
               </li>
               <li className="ms-4">
                 <div className="absolute w-2.5 h-2.5 bg-blue-900 rounded-full mt-1.5 -start-1.5 border border-white"></div>
-                <time className="text-sm font-bold leading-none">07:45 PM</time>
-                <p className="pb-2 pt-2 opacity-80">Messages from the newlyweds</p>
+                <time className="text-sm font-bold leading-none">8:00 PM</time>
+                <p className="pb-2 pt-2 opacity-80">End</p>
               </li>
             </ol>
           </div>
