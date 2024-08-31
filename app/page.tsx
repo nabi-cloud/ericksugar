@@ -4,12 +4,17 @@ export default function Home() {
       <main className="sm:max-w-xs w-full shadow-2xl mx-auto text-blue-100">
         <div className='bg-noise px-5'>
           <div className="flex flex-col relative justify-between h-dvh py-5">
-            <span className="initials absolute -top-20 -left-6">E</span>
-            <span className="initials absolute -bottom-20 -right-6">S</span>
+            <span className="initials absolute -top-20 -left-4">E</span>
+            <span className="initials absolute -bottom-20 -right-4">S</span>
             <p className="text-normal text-right ml-auto max-w-32">We invite you to our special day</p>
-            <h1 className="text-center">ERICK<br />•<br />SUGAR</h1>
+            <br />
+            <br />
+            <div className="pt-40 mt-40">
+            <h1 className="text-center">ERICK • SUGAR</h1>
+            </div>
             <p className="text-normal max-w-40">“Two are better<br /> than one” —Eccl. 4:9</p>
           </div>
+
           {/* Event Details */}
           <div className="flex flex-col justify-between py-20 text-center h-screen">
             {/* Date */}
@@ -101,15 +106,14 @@ export default function Home() {
             </ol>
           </div>
         </div>
-      </main>
-      {/* Footer */}
-      <footer className="text-center sm:max-w-xs w-full mx-auto text-blue-100">
         <div className='bg-noise flex flex-col items-center p-4'>
           <hr className="opacity-50 w-full" />
           <img className="w-40" src="/logo.png" alt='Erick and Sugar' />
           <span className="text-small opacity-70">2024</span>
         </div>
-      </footer>
+      </main>
+
+      {/* Footer */}
     </>
   );
 }
